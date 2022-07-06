@@ -1,0 +1,68 @@
+body{
+    background-color: #f4f4f4;
+    color:#555555;
+
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+.box1{
+    background-color:antiquewhite;
+    color:royalblue;
+    border-radius: 35px;
+
+    /*border-right: 5px blue solid;
+    border-left:5px mediumvioletred solid;
+    border-top:10px darkgreen dotted;
+    border-bottom: 10px firebrick double;*/
+
+    border:5px cornflowerblue dotted;
+     padding: 20px;
+    margin: 20px 0;
+}
+
+.box1 h1{
+    text-align: center;
+    color:mediumpurple;
+    font-family: Georgia, Times New Roman, serif;
+    font-weight: 800;
+    font-style: italic;
+    /*normal	默认值。浏览器显示一个标准的字体样式。
+italic	浏览器会显示一个斜体的字体样式。
+oblique	浏览器会显示一个倾斜的字体样式。
+inherit	规定应该从父元素继承字体样式。*/
+    /*text-decoration: underline;*/
+    /*text-transform: uppercase;*/
+    /*none	默认。定义带有小写字母和大写字母的标准的文本。
+capitalize	文本中的每个单词以大写字母开头。
+uppercase	定义仅有大写字母。
+lowercase	定义无大写字母，仅有小写字母。
+inherit	规定应该从父元素继承 text-transform 属性的值。
+*/
+    /*letter-spacing: 1em;*/
+    /*word-spacing: 2em;*/
+}
+.box2{
+    border:5px dotted #cccccc;
+    border-radius: 35px;
+    /*该属性允许您为元素添加圆角边框*/
+    padding: 20px;
+    margin: 20px 0;/*https://www.w3school.com.cn/cssref/pr_margin.asp*/
+}
+.box2 h1{
+    text-align: center;
+    color:rebeccapurple;
+    font-family: Georgia, Times New Roman, serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+}
+.list li{
+    font-size:20px;
+    list-style-image: url("../image/img1.png");
+     background-color:antiquewhite;
+}
